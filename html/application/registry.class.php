@@ -9,28 +9,16 @@
 
 class Registry {
 
-    /**
-     * @the $vars array
-     * @access private
-     */
+    //variable type array
     private $vars = array();
 
-    /**
-     * @set undefined vars
-     * @param string $index
-     * @param mixed $value
-     * @return void
-     */
+    //magic method to set array
     public function __set($index, $value)
     {
         $this->vars[$index] = $value;
     }
 
-    /**
-     * @get undefined vars
-     * @param string $index
-     * @return mixed
-     */
+    //magic method to get array
     public function __get($index)
     {
         return $this->vars[$index];

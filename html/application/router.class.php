@@ -13,22 +13,26 @@ class router
      */
     private $registry;
 
-    /*
-     * the controller to handle the request
-     */
     private $path;
 
-    //Not sure what this is used for
     private $args = array();
 
-    public $file;
+    private $file;
+
+    /**
+     * @var This is the type of the Instantiator
+     */
+    private $type;
 
     /*
-     * this is the controller that will be called
+     * this is the Controller/Plugin/API that will be instantiated
      */
-    public $controller;
+    private $instantiator;
 
-    public $method;
+    /**
+     * @var this is the method of the Instantiator that will be called
+     */
+    private $method;
 
     function __construct($registry){
         $this->registry = $registry;
@@ -36,18 +40,55 @@ class router
 
     public function load()
     {
-        $this->getController();
+        $this->getInstantiator();
+        switch(strtolower($this->type))
+        {
+            case 'plugin' :
+                $this->setPath(__SITE_PATH . "/html/plugin/");
+                $this->file = $this->path . '/'. $this->instantiator . ".php";
+                break;
+            case 'api' :
+                $this->setPath(__SITE_PATH . "/html/api/");
+                $this->file = $this->path . '/'. $this->instantiator . ".php";
+                break;
+            case 'controller' :
+                $this->setPath(__SITE_PATH . "/html/controller");
+                $this->file = $this->path . '/'. $this->instantiator . ".php";
+                break;
+        }
+        $this->loadInstantiator();
+    }
 
+    private function loadInstantiator()
+    {
         if(is_readable($this->file) == false)
         {
             die('404 Not Found');
         }
         include $this->file;
-        $class = $this->controller . 'Controller';
-        $controller = new $class($this->registry);
+        switch(strtolower($this->type))
+        {
+            case 'plugin' :
+                $class = $this->instantiator . 'Plugin';
+                break;
+            case 'api' :
+                $class = $this->instantiator . 'API';
+                break;
+            case 'controller' :
+                $class = $this->instantiator . 'Controller';
+                break;
+            case 'admin' :
+                //perform some work here.
+                break;
+        }
+        if(!isset($class))
+        {
+            die('404 Not Found');
+        }
 
-        $method = '';
-        if(is_callable(array($controller, $this->method)) == false)
+        $instantiator = new $class($this->registry);
+
+        if(is_callable(array($instantiator, $this->method)) == false)
         {
             $method = 'index';
         }
@@ -55,36 +96,40 @@ class router
         {
             $method = $this->method;
         }
-        $controller->$method();
+        $instantiator->$method();
     }
 
-    private function getController()
+    private function getInstantiator()
     {
         $route = (empty($_GET['request'])) ? '' : $_GET['request'];
         if(empty($route))
         {
+            $this->type = "Controller";
             $route = 'index';
         }
-        else {
+        else
+        {
             $parts = explode('/', $route);
-            $this->controller = $parts[0];
-            if (isset($parts[1])) {
-                $this->method = $parts[1];
+            $this->type = $parts[0];
+            $this->instantiator = $parts[1];
+            if (isset($parts[2]))
+            {
+                $this->method = $parts[2];
             }
         }
-        if(empty($this->controller))
+        if(empty($this->instantiator))
         {
-            $this->controller = 'home';
+            $this->instantiator = 'home';
         }
 
         if(empty($this->method))
         {
             $this->method = 'index';
         }
-
-        $this->file = $this->path .'/'.$this->controller. '.php';
     }
-    public function setPath($path) {
+
+
+    private function setPath($path) {
 
         /*** check if path i sa directory ***/
         if (is_dir($path) == false)

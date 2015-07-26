@@ -22,5 +22,5 @@ $reg = new Registry();
 $reg->view = new view();
 $reg->db = db::getInstance();
 $reg->router = new router($reg);
-$reg->router->setPath(__SITE_PATH . '/html/controller/');
 $reg->router->load();
+

@@ -7,21 +7,20 @@
  * Description: Base controller class
  */
 
-abstract class controller
+abstract class controller extends instantiator
 {
-    /*
-     * Registry object that will be available to all constructors that inherit this class
-     */
-    protected $registry;
+    protected $plugin;
 
-    function __construct($reg)
+    /**
+     * @checkPlugin Checks to see if there is a plugin associated
+     * @return bool
+     */
+    protected function checkPlugin()
     {
-        $this->registry = $reg;
+        return false;
     }
-
-    /*
-     * The framework specifies that all constructors are required to implement and index method
-     * This is the default method that is called if one is not specified.
-     */
-    abstract function index();
+    protected function executePlugin()
+    {
+        return false;
+    }
 }

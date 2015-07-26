@@ -1,0 +1,1 @@
+<h3>This is from the blog controller.</h3>

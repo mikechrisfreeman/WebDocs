@@ -32,17 +32,18 @@ class view
         return $this->vars[$index];
     }
 
+
     /**
      * @param $name is the name of the html page to be displayed.
      * @return bool if it cant be found an error is thrown.
      * @throws Exception is thrown if html file can not be found.
      */
     function show($controller, $name) {
-        $path = __SITE_PATH . '/views' . '/' . $controller . '/' .$name . '.php';
+        $path = __SITE_PATH . '/html/views' . '/' . $controller . '/' .$name . '.php';
 
         if (file_exists($path) == false)
         {
-            throw new Exception('Template not found in '. $path);
+            throw new Exception('Unable to load view, file not found '. $path);
             return false;
         }
 
