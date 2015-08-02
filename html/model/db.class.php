@@ -15,6 +15,9 @@ class DB {
     private $password;
     private $database;
 
+    private $pluginIDs = array();
+    private $Checked = false;
+
     public static function getInstance()
     {
         if(!(self::$_instance instanceof self))
@@ -26,7 +29,7 @@ class DB {
 
     private function __construct()
     {
-        //Obtaining config Details
+        //Obtaining config for my database Connection
         try{
 
             $config_file = parse_ini_file(__SITE_PATH . "/webdep.ini");
@@ -34,8 +37,6 @@ class DB {
             $this->username = $config_file['username'];
             $this->password = $config_file['password'];
             $this->database = $config_file['database'];
-
-            new Log("Obtained Database details : " . $this->username . " : " . $this->password . " : " . $this->database);
 
         } catch(Exception $e) {
             new ErrorLog("Failed to read config details from ini : " . $e);
@@ -49,7 +50,6 @@ class DB {
             $this->_db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->_db->exec('SET NAMES "utf8"');
 
-            new Log("Obtained Database Connecton : " . $this->username . " : " . $this->password . " : " . $this->database);
 
         } catch (PDOException $ex) {
             new ErrorLog("Failed to create a connection to the Database : " . $ex);
@@ -60,6 +60,7 @@ class DB {
 
     public function __call($method, $args)
     {
+
         if ( is_callable(array($this->_db, $method)) ) {
             return call_user_func_array(array($this->_db, $method), $args);
         }
@@ -69,6 +70,7 @@ class DB {
     }
 
     private function __clone(){}
+
 }
 
 

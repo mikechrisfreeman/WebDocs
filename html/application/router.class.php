@@ -34,6 +34,12 @@ class router
      */
     private $method;
 
+    /**
+     * @param $registry
+     */
+    private $controllerPageNumber;
+
+
     function __construct($registry){
         $this->registry = $registry;
     }
@@ -43,6 +49,9 @@ class router
         $this->getInstantiator();
         switch(strtolower($this->type))
         {
+            case 'dataplugin':
+            case 'viewplugin':
+            case 'actionplugin':
             case 'plugin' :
                 $this->setPath(__SITE_PATH . "/html/plugin/");
                 $this->file = $this->path . '/'. $this->instantiator . ".php";
@@ -51,6 +60,8 @@ class router
                 $this->setPath(__SITE_PATH . "/html/api/");
                 $this->file = $this->path . '/'. $this->instantiator . ".php";
                 break;
+            case 'datacontroller':
+            case 'viewcontroller':
             case 'controller' :
                 $this->setPath(__SITE_PATH . "/html/controller");
                 $this->file = $this->path . '/'. $this->instantiator . ".php";
@@ -66,14 +77,19 @@ class router
             die('404 Not Found');
         }
         include $this->file;
-        switch(strtolower($this->type))
+        switch($this->type)
         {
+            case 'dataplugin':
+            case 'viewplugin':
+            case 'actionplugin':
             case 'plugin' :
                 $class = $this->instantiator . 'Plugin';
                 break;
             case 'api' :
                 $class = $this->instantiator . 'API';
                 break;
+            case 'datacontroller':
+            case 'viewcontroller':
             case 'controller' :
                 $class = $this->instantiator . 'Controller';
                 break;
@@ -86,7 +102,15 @@ class router
             die('404 Not Found');
         }
 
-        $instantiator = new $class($this->registry);
+        //View Controllers are required to keep track of the page numbers they belong to.
+        if(isset($this->controllerPageNumber) && ($this->type == 'controller'))
+        {
+            $instantiator = new $class($this->registry, $this->controllerPageNumber);
+
+        }else{
+
+            $instantiator = new $class($this->registry);
+        }
 
         if(is_callable(array($instantiator, $this->method)) == false)
         {
@@ -96,25 +120,35 @@ class router
         {
             $method = $this->method;
         }
-        $instantiator->$method();
+        if($this->type == 'dataplugin')
+            $instantiator->$method(explode(',',$_GET['data']));
+        else
+            $instantiator->$method();
     }
 
     private function getInstantiator()
     {
         $route = (empty($_GET['request'])) ? '' : $_GET['request'];
+
+        //If route is empty - set the defaults for the home controller.
         if(empty($route))
         {
-            $this->type = "Controller";
+            $this->type = "controller";
             $route = 'index';
+            $this->controllerPageNumber = 1;
         }
         else
         {
             $parts = explode('/', $route);
-            $this->type = $parts[0];
+            $this->type = strtolower($parts[0]);
             $this->instantiator = $parts[1];
             if (isset($parts[2]))
             {
                 $this->method = $parts[2];
+            }
+            if(isset($parts[3]))
+            {
+                $this->controllerPageNumber = $parts[3];
             }
         }
         if(empty($this->instantiator))

@@ -12,10 +12,11 @@ class view
     private $vars = array();
 
     /**
-     * Magic method for setting variables in the template class
+     * Magic method for setting variables in the view class
      * @param $index
      * @param $value
      */
+
     public function __set($index, $value)
     {
         $this->vars[$index] = $value;

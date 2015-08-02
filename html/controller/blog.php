@@ -6,9 +6,9 @@
  * Time: 15:38
  */
 
-class blogController extends controller
+class blogController extends viewController
 {
-    public function index()
+    public function action()
     {
         $this->registry->view->title = 'blog index';
         $this->registry->view->show(__CLASS__,'index');

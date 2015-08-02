@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - WebDeP@localhost" uuid="81d451f5-5bdf-478c-8cdd-4d704637934b">
+    <database-info product="MySQL" version="5.6.24" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="WebDeP"/>
+    <table name="ControllerPluginTypes" schema="" catalog="WebDeP" type="TABLE">
+      <column name="CPTypeID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="CPTypeID"/>
+      <exported-key name="controllers_ibfk_1" table="Controllers" schema="" catalog="WebDeP" columns="type"/>
+      <exported-key name="plugins_ibfk_1" table="Plugins" schema="" catalog="WebDeP" columns="type"/>
+    </table>
+    <table name="Controllers" schema="" catalog="WebDeP" type="TABLE">
+      <column name="controllerID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="controllerID"/>
+      <foreign-key name="controllers_ibfk_1" columns="type" ref-table="ControllerPluginTypes" ref-schema="" ref-catalog="WebDeP" ref-columns="CPTypeID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="pageplugincontroller_ibfk_3" table="PagePluginController" schema="" catalog="WebDeP" columns="controllerID"/>
+    </table>
+    <table name="PagePluginController" schema="" catalog="WebDeP" type="TABLE">
+      <column name="pageID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="pluginID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="controllerID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <foreign-key name="pageplugincontroller_ibfk_1" columns="pageID" ref-table="pages" ref-schema="" ref-catalog="WebDeP" ref-columns="pageID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="pageplugincontroller_ibfk_2" columns="pluginID" ref-table="plugins" ref-schema="" ref-catalog="WebDeP" ref-columns="pluginID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="pageplugincontroller_ibfk_3" columns="controllerID" ref-table="controllers" ref-schema="" ref-catalog="WebDeP" ref-columns="controllerID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="Pages" schema="" catalog="WebDeP" type="TABLE">
+      <column name="pageID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="pageID"/>
+      <exported-key name="pageplugincontroller_ibfk_1" table="PagePluginController" schema="" catalog="WebDeP" columns="pageID"/>
+    </table>
+    <table name="Plugins" schema="" catalog="WebDeP" type="TABLE">
+      <column name="pluginID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="pluginID"/>
+      <foreign-key name="plugins_ibfk_1" columns="type" ref-table="ControllerPluginTypes" ref-schema="" ref-catalog="WebDeP" ref-columns="CPTypeID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="pageplugincontroller_ibfk_2" table="PagePluginController" schema="" catalog="WebDeP" columns="pluginID"/>
+    </table>
+    <table name="Users" schema="" catalog="WebDeP" type="TABLE">
+      <column name="userID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="lastName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="firstName" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="salt" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="userID"/>
+    </table>
+    <table name="testing" schema="" catalog="WebDeP" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="32" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+  </data-source>
+</component>

@@ -17,6 +17,9 @@ include __SITE_PATH . '/html/application/api.class.php';
 include __SITE_PATH . '/html/model/db.class.php';
 include __SITE_PATH . '/html/application/log.class.php';
 include __SITE_PATH . '/html/application/errorlog.class.php';
+include __SITE_PATH . '/html/application/plugin.class.php';
+include __SITE_PATH . '/html/application/viewController.class.php';
+include __SITE_PATH . '/html/application/dataController.class.php';
 
 
 /**
