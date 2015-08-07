@@ -12,12 +12,14 @@
 <div id=""></div>
 <div id="form">
 
-    <form action="http://localhost/dataController/formData?table=comment" method="POST">
+    <form action="http://localhost/dataController/formData?table=commentsData" method="POST">
         First name:<br>
         <input type="text" name="firstname" value="Mickey">
         <br>
         Last name:<br>
-        <input type="text" name="lastname" value="Mouse">
+        <textarea name="comment">
+            This is just a test comment.
+        </textarea>
         <br><br>
         <input type="submit" value="Submit">
     </form>

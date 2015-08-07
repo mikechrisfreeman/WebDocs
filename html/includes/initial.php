@@ -20,6 +20,7 @@ include __SITE_PATH . '/html/application/errorlog.class.php';
 include __SITE_PATH . '/html/application/plugin.class.php';
 include __SITE_PATH . '/html/application/viewController.class.php';
 include __SITE_PATH . '/html/application/dataController.class.php';
+include __SITE_PATH . '/html/includes/functions.php';
 
 
 /**

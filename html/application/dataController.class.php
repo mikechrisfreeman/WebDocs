@@ -4,6 +4,8 @@ abstract class dataController extends controller
 {
     //There can be a number of dataPlugins
     protected $pluginIDs = array();
+    protected $inputData;
+    protected $table;
 
     protected function checkForPlugins()
     {
@@ -78,7 +80,9 @@ abstract class dataController extends controller
         //We have the details - now let the framework handle the instantiation
         new Log(" echoing file_get_contents, class =  " . get_class($this) . " for PluginID = " . $pluginID);
 
-        echo file_get_contents($link . $this->plugin . "?data=" . implode(',', $args));
+        $PluginReturnValue = file_get_contents($link . $this->plugin . "?data=" . implodeAssoc(',',$args));
+
+        return $PluginReturnValue;
     }
 
     public function index()
@@ -94,9 +98,13 @@ abstract class dataController extends controller
         {
             foreach($this->pluginIDs as $pluginID)
             {
-                $this->executePlugin($pluginID, $inputData);
+                $inputData = explodeAssoc(',', $this->executePlugin($pluginID, $inputData));
             }
         }
-        var_dump($inputData);
+
+        $this->inputData = $inputData;
+        $this->table = $_GET['table'];
+
+        $this->action();
     }
 }

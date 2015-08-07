@@ -10,7 +10,7 @@ class dataTestPlugin extends Plugin
 {
     public function index($args)
     {
-        new Log("In the index of the dataplugin test getting data : " . $args);
-        echo "Michael was Here with data = " . $args;
+        //We need to return a string
+        echo implodeAssoc(',', $args);
     }
 }

@@ -10,6 +10,5 @@ class formDataController extends dataController
 {
     public function action()
     {
-
     }
 }

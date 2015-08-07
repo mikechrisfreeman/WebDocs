@@ -121,7 +121,7 @@ class router
             $method = $this->method;
         }
         if($this->type == 'dataplugin')
-            $instantiator->$method(explode(',',$_GET['data']));
+            $instantiator->$method(explodeAssoc(',',$_GET['data']));
         else
             $instantiator->$method();
     }

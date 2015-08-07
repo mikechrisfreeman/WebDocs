@@ -14,6 +14,6 @@ INSERT INTO Plugins (name, type, override, after) VALUES (curseWords, 2, 0, 0);
 
 INSERT INTO Pages (pageID, name) VALUES (999, "Data");
 
-INSERT INTO Controllers (name, type) values ('dataController', 2);
+INSERT INTO Controllers (name, type) values ('formDataController', 2);
 
 INSERT INTO PagePluginController(pageID, pluginID, controllerID) values (999,2,2);

@@ -67,6 +67,15 @@ FOREIGN KEY (pluginID) REFERENCES plugins (pluginID),
 FOREIGN KEY (controllerID) REFERENCES controllers (controllerID)
 )
 
+/*
+CREATE TABLE CommentsData
+(
+record int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+firstname VARCHAR (32) not null,
+comment VARCHAR (255) not null
+)
+*/
+
 
 
 

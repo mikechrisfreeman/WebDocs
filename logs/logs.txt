@@ -584,3 +584,138 @@
 2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
 2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
 2015-08-02   :   In the index of the dataplugin test getting data : Array
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   In the index of the dataplugin test getting data : Array
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   In the index of the dataplugin test getting data : Array
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-02   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-02   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-02   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-02   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-02   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-04   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-04   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-04   :    echoing file_get_contents, class =  formDataController for PluginID = 2
