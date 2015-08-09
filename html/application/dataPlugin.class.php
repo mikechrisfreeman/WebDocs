@@ -8,5 +8,6 @@
 
 abstract class dataPlugin extends Plugin
 {
+    public $PluginType = "data";
     abstract function index($args);
 }

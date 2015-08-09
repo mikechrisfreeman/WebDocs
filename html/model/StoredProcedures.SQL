@@ -73,99 +73,100 @@ BEGIN
         SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue1, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName2 <> '' ) && (columnValue2 IS NOT NULL OR columnValue1 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName2);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue2, '\'');
+    IF (columnName2 IS NOT NULL OR columnName2 <> '' ) && (columnValue2 IS NOT NULL OR columnValue2 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, ',',columnName2);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',', '\'', columnValue2, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName3 <> '' ) && (columnValue3 IS NOT NULL OR columnValue1 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName3);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue3, '\'');
+
+    IF (columnName3 IS NOT NULL AND columnName3 <> '' ) && (columnValue3 IS NOT NULL AND columnValue3 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, ',',columnName3);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue3, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName4 <> '' ) && (columnValue4 IS NOT NULL OR columnValue1 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName4);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue4, '\'');
+    IF (columnName4 IS NOT NULL AND columnName4 <> '' ) && (columnValue4 IS NOT NULL AND columnValue4 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName4);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue4, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName5 <> '' ) && (columnValue5 IS NOT NULL OR columnValue1 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName5);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue5, '\'');
+    IF (columnName5 IS NOT NULL AND columnName5 <> '' ) && (columnValue5 IS NOT NULL AND columnValue5 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName5);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue5, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue6 IS NOT NULL OR columnValue6 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName6);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue6, '\'');
+    IF (columnName6 IS NOT NULL AND columnName6 <> '' ) && (columnValue6 IS NOT NULL AND columnValue6 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName6);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues,',', '\'', columnValue6, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue7 IS NOT NULL OR columnValue7 <> '' ) THEN
+    IF (columnName7 IS NOT NULL AND columnName7 <> '' ) && (columnValue7 IS NOT NULL AND columnValue7 <> '' ) THEN
     	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName7);
         SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue7, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue8 IS NOT NULL OR columnValue8 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName8);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue8, '\'');
+    IF (columnName8 IS NOT NULL AND columnName8 <> '' ) && (columnValue8 IS NOT NULL AND columnValue8 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName8);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues,',', '\'', columnValue8, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue9 IS NOT NULL OR columnValue9 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName9);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue9, '\'');
+    IF (columnName9 IS NOT NULL AND columnName9 <> '' ) && (columnValue9 IS NOT NULL AND columnValue9 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName9);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue9, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue10 IS NOT NULL OR columnValue10 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName10);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue10, '\'');
+    IF (columnName10 IS NOT NULL AND columnName10 <> '' ) && (columnValue10 IS NOT NULL AND columnValue10 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName10);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues,',','\'', columnValue10, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue11 IS NOT NULL OR columnValue11 <> '' ) THEN
+    IF (columnName11 IS NOT NULL AND columnName11 <> '' ) && (columnValue11 IS NOT NULL AND columnValue11 <> '' ) THEN
     	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName11);
         SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue11, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue12 IS NOT NULL OR columnValue12 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName12);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue12, '\'');
+    IF (columnName12 IS NOT NULL AND columnName12 <> '' ) && (columnValue12 IS NOT NULL AND columnValue12 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName12);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue12, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue13 IS NOT NULL OR columnValue13 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName13);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue13, '\'');
+    IF (columnName13 IS NOT NULL AND columnName13 <> '' ) && (columnValue13 IS NOT NULL AND columnValue13 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName13);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue13, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue14 IS NOT NULL OR columnValue14 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName14);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue14, '\'');
+    IF (columnName14 IS NOT NULL AND columnName14 <> '' ) && (columnValue14 IS NOT NULL AND columnValue14 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName14);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues,',', '\'', columnValue14, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue15 IS NOT NULL OR columnValue15 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName15);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue15, '\'');
+    IF (columnName15 IS NOT NULL AND columnName15 <> '' ) && (columnValue15 IS NOT NULL AND columnValue15 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName15);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues,',', '\'', columnValue15, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue16 IS NOT NULL OR columnValue16 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName16);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue16, '\'');
+    IF (columnName16 IS NOT NULL AND columnName16 <> '' ) && (columnValue16 IS NOT NULL AND columnValue16 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName16);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues,',', '\'', columnValue16, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue17 IS NOT NULL OR columnValue17 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName17);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue17, '\'');
+    IF (columnName17 IS NOT NULL AND columnName17 <> '' ) && (columnValue17 IS NOT NULL AND columnValue17 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName17);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue17, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue18 IS NOT NULL OR columnValue18 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName18);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue18, '\'');
+    IF (columnName18 IS NOT NULL AND columnName18 <> '' ) && (columnValue18 IS NOT NULL AND columnValue18 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName18);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue18, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue19 IS NOT NULL OR columnValue19 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName19);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue19, '\'');
+    IF (columnName19 IS NOT NULL AND columnName19 <> '' ) && (columnValue19 IS NOT NULL AND columnValue19 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, ',',columnName19);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue19, '\'');
     END IF;
 
-    IF (columnName1 IS NOT NULL OR columnName1 <> '' ) && (columnValue20 IS NOT NULL OR columnValue20 <> '' ) THEN
-    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns, columnName20);
-        SET @sqlQueryValues = CONCAT(@sqlQueryValues, '\'', columnValue20, '\'');
+    IF (columnName20 IS NOT NULL AND columnName20 <> '' ) && (columnValue20 IS NOT NULL AND columnValue20 <> '' ) THEN
+    	SET @sqlQueryColumns = CONCAT(@sqlQueryColumns,',', columnName20);
+        SET @sqlQueryValues = CONCAT(@sqlQueryValues, ',','\'', columnValue20, '\'');
     END IF;
 
 

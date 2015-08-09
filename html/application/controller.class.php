@@ -9,5 +9,7 @@
 
 abstract class controller extends instantiator
 {
+    protected $plugin;
+
     abstract function action();
 }

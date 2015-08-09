@@ -13,4 +13,5 @@ interface IPlugin
 
 abstract class Plugin extends instantiator implements IPlugin
 {
+    public $PluginType = "plugin";
 }

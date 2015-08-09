@@ -2,17 +2,14 @@
 
 abstract class viewController extends controller
 {
-    protected $plugin;
-    protected $pluginID;
     protected $pageID;
-
+    protected $pluginID;
     private $pluginOverride;
     private $pluginAfter;
 
-    public function __construct($registry, $pageID)
+    public function __construct($registry)
     {
         Parent::__Construct($registry);
-        $this->pageID = $pageID;
     }
     /**
      * @checkPlugin Checks to see if there is a plugin associated.
@@ -99,9 +96,9 @@ abstract class viewController extends controller
     * Plugin execution logic - this is put in the abstract controller, so concrete controller can concentrate
     * on what they're supposed to do.
     */
-    public function index()
+    public function index($PageID)
     {
-
+        $this->pageID = $PageID;
         if($this->checkForPlugins())
         {
             if($this->pluginOverride)

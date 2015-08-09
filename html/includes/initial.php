@@ -18,6 +18,8 @@ include __SITE_PATH . '/html/model/db.class.php';
 include __SITE_PATH . '/html/application/log.class.php';
 include __SITE_PATH . '/html/application/errorlog.class.php';
 include __SITE_PATH . '/html/application/plugin.class.php';
+include __SITE_PATH . '/html/application/dataPlugin.class.php';
+include __SITE_PATH . '/html/application/viewPlugin.class.php';
 include __SITE_PATH . '/html/application/viewController.class.php';
 include __SITE_PATH . '/html/application/dataController.class.php';
 include __SITE_PATH . '/html/includes/functions.php';
@@ -32,12 +34,19 @@ include __SITE_PATH . '/html/includes/functions.php';
 
 function __autoload($class_name) {
     $filename = strtolower($class_name) . '.class.php';
-    $file = __SITE_PATH . '/html/model/' . $filename;
+    $Modelfile = __SITE_PATH . '/html/model/' . $filename;
+    $Pluginfile = __SITE_PATH . '/html/plugin/' . $class_name . '.php';
 
-    if(file_exists($file) == false)
+    if(file_exists($Modelfile))
     {
+        include($Modelfile);
+
+    }elseif(file_exists($Pluginfile))
+    {
+        include($Pluginfile);
+
+    }else{
         return false;
     }
-    include($file);
 }
 

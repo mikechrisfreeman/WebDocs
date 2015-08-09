@@ -37,7 +37,7 @@ class router
     /**
      * @param $registry
      */
-    private $controllerPageNumber;
+    private $parameter;
 
 
     function __construct($registry){
@@ -83,7 +83,7 @@ class router
             case 'viewplugin':
             case 'actionplugin':
             case 'plugin' :
-                $class = $this->instantiator . 'Plugin';
+                $class = $this->instantiator;
                 break;
             case 'api' :
                 $class = $this->instantiator . 'API';
@@ -102,15 +102,8 @@ class router
             die('404 Not Found');
         }
 
-        //View Controllers are required to keep track of the page numbers they belong to.
-        if(isset($this->controllerPageNumber) && ($this->type == 'controller'))
-        {
-            $instantiator = new $class($this->registry, $this->controllerPageNumber);
+        $instantiator = new $class($this->registry);
 
-        }else{
-
-            $instantiator = new $class($this->registry);
-        }
 
         if(is_callable(array($instantiator, $this->method)) == false)
         {
@@ -120,10 +113,15 @@ class router
         {
             $method = $this->method;
         }
-        if($this->type == 'dataplugin')
-            $instantiator->$method(explodeAssoc(',',$_GET['data']));
-        else
+
+        if(isset($this->parameter))
+        {
+            $instantiator->$method($this->parameter);
+        }else
+        {
             $instantiator->$method();
+        }
+
     }
 
     private function getInstantiator()
@@ -135,7 +133,7 @@ class router
         {
             $this->type = "controller";
             $route = 'index';
-            $this->controllerPageNumber = 1;
+            $this->parameter = 1;
         }
         else
         {
@@ -148,7 +146,7 @@ class router
             }
             if(isset($parts[3]))
             {
-                $this->controllerPageNumber = $parts[3];
+                $this->parameter = $parts[3];
             }
         }
         if(empty($this->instantiator))

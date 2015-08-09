@@ -8,5 +8,11 @@
 
 abstract class viewPlugin extends Plugin
 {
+    public $PluginType = "view";
+    public $view = false;
+    public $override = false;
+    public $after = false;
+
+    abstract function install();
     abstract function index();
 }

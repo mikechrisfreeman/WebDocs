@@ -28,6 +28,5 @@ $reg->db = db::getInstance();
 
 
 $reg->router = new router($reg);
-
 $reg->router->load();
 

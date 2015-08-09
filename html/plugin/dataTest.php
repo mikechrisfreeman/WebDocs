@@ -6,11 +6,11 @@
  * Time: 18:29
  */
 
-class dataTestPlugin extends Plugin
+class dataTest extends dataPlugin
 {
     public function index($args)
     {
-        //We need to return a string
-        echo implodeAssoc(',', $args);
+        echo "In the Data Plugin";
+        return $args;
     }
 }

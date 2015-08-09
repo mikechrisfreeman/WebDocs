@@ -4,6 +4,7 @@ abstract class dataController extends controller
 {
     //There can be a number of dataPlugins
     protected $pluginIDs = array();
+    protected $pluginName;
     protected $inputData;
     protected $table;
 
@@ -46,12 +47,9 @@ abstract class dataController extends controller
 
     protected function executePlugin($pluginID, $args)
     {
-        //we're in a dataController and will pass to a dataPlugin
-        $link = "http://localhost/dataPlugin/";
-
-
+        $pluginMethod = 'index';
+        new Log("Getting Plugin Details from ExecutePlugin method, class =  " . get_class($this) . " for PluginID = " . $pluginID);
         try{
-            new Log("Getting Plugin Details from ExecutePlugin method, class =  " . get_class($this) . " for PluginID = " . $pluginID);
 
             //Calling a Stored Procedure to get the pluginID for the controller
             $StoredProcedure = $this->db->prepare("CALL GetPluginDetailsforID(?)");
@@ -64,11 +62,11 @@ abstract class dataController extends controller
             if($StoredProcedure->rowCount() > 0)
             {
                 $result = $StoredProcedure->fetch(PDO::FETCH_ASSOC);
-                $this->plugin = $result['name'];
+                $this->pluginName = $result['name'];
             }
             else
             {
-                new Log("No rows for this plugin = ". $pluginID . "class =  " . get_class($this));
+                new ErrorLog("No rows for this plugin = ". $pluginID . "class =  " . get_class($this));
                 return;
             }
 
@@ -77,12 +75,18 @@ abstract class dataController extends controller
             new ErrorLog("Unable to execute checkPlugin in controller class, error : " . $e->getMessage());
         }
 
-        //We have the details - now let the framework handle the instantiation
-        new Log(" echoing file_get_contents, class =  " . get_class($this) . " for PluginID = " . $pluginID);
+        new Log("Got Plugin Details from ExecutePlugin method, class =  " . get_class($this) . " for PluginID = " . $pluginID ." and PluginName = " . $this->pluginName);
 
-        $PluginReturnValue = file_get_contents($link . $this->plugin . "?data=" . implodeAssoc(',',$args));
+        $this->plugin = new $this->pluginName($this->registry);
 
-        return $PluginReturnValue;
+        if(is_callable(array($this->plugin, $pluginMethod)) == false)
+        {
+            new ErrorLog("unable to call plugin method " . get_class($this) . " for PluginID = " . $pluginID ." and PluginName = " . $this->pluginName . " and pluginMethod = " . $this->pluginMethod);
+            return false;
+        }else{
+            return $this->plugin->$pluginMethod($args);
+        }
+
     }
 
     public function index()
@@ -98,7 +102,9 @@ abstract class dataController extends controller
         {
             foreach($this->pluginIDs as $pluginID)
             {
-                $inputData = explodeAssoc(',', $this->executePlugin($pluginID, $inputData));
+
+                //Foreach Plugin Found - I'm going to execute the plugin.
+                $inputData = $this->executePlugin($pluginID, $inputData);
             }
         }
 
