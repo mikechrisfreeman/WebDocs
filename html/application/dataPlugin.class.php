@@ -9,5 +9,11 @@
 abstract class dataPlugin extends Plugin
 {
     public $PluginType = "data";
+    public $override = false;
+    public $after = false;
+
+    /*
+     * Method accepts an array as a parameter and returns array
+     */
     abstract function index($args);
 }

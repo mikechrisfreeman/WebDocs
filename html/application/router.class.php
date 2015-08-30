@@ -37,7 +37,9 @@ class router
     /**
      * @param $registry
      */
-    private $parameter;
+    private $parameter1;
+    private $parameter2;
+    private $parameter3;
 
 
     function __construct($registry){
@@ -114,14 +116,24 @@ class router
             $method = $this->method;
         }
 
-        if(isset($this->parameter))
+
+
+        if(isset($this->parameter1))
         {
-            $instantiator->$method($this->parameter);
+            if(isset($this->parameter2))
+            {
+                if(isset($this->parameter3))
+                    $instantiator->$method($this->parameter1, $this->parameter2, $this->parameter3);
+                else
+                    $instantiator->$method($this->parameter1, $this->parameter2);
+            }else
+            {
+                $instantiator->$method($this->parameter1);
+            }
         }else
         {
             $instantiator->$method();
         }
-
     }
 
     private function getInstantiator()
@@ -133,21 +145,43 @@ class router
         {
             $this->type = "controller";
             $route = 'index';
-            $this->parameter = 1;
+            $this->parameter1 = 1;
         }
         else
         {
             $parts = explode('/', $route);
-            $this->type = strtolower($parts[0]);
-            $this->instantiator = $parts[1];
+            if (isset($parts[0]))
+            {
+                $this->type = $parts[0];
+            }
+            if (isset($parts[1]))
+            {
+                $this->instantiator = $parts[1];
+                if(strtolower($this->instantiator) == 'admin'){
+                    //assign the page number
+                    $parts[3] = '888';
+                }
+
+            }
             if (isset($parts[2]))
             {
                 $this->method = $parts[2];
             }
             if(isset($parts[3]))
             {
-                $this->parameter = $parts[3];
+
+                $this->parameter1 = $parts[3];
             }
+            if(isset($parts[4]))
+            {
+                $this->parameter2 = $parts[4];
+            }
+            if(isset($parts[5]))
+            {
+                $this->parameter3 = $parts[5];
+            }
+
+            //HardCo
         }
         if(empty($this->instantiator))
         {

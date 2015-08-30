@@ -16,24 +16,16 @@ CREATE PROCEDURE GetPluginIDForController(pageID int, controllerName VARCHAR(32)
 /*
     Creating Stored Procedure for Getting Plugin details for ID
  */
+DELIMITER <<
+DROP PROCEDURE IF EXISTS webdep.getPluginDetailsforID<<
 CREATE PROCEDURE getPluginDetailsforID(pluginID int)
   SELECT *
   FROM Plugins as p
   WHERE p.pluginID = pluginID;
+DELimiter ;
 
 
 DELIMITER <<
-DROP PROCEDURE IF EXISTS webdep.FormDataInsert<<
-CREATE PROCEDURE webdep.FormDataInsert(IN tableName VARCHAR(45))
-BEGIN
-	DECLARE sqlQuery VARCHAR(1024);
-    DECLARE stmtp VARCHAR(1024);
-    SET @sqlQuery = CONCAT('INSERT INTO CommentsData (firstname, comment)', 'VALUES(\'michael\', \'comment101\')');
-    PREPARE stmtp FROM @sqlQuery;
-    EXECUTE stmtp;
-END<<
-DELIMETER ;
-
 DROP PROCEDURE IF EXISTS webdep.FormDataInsert<<
 CREATE PROCEDURE webdep.FormDataInsert( IN tableName VARCHAR(45),
                                         IN columnName1 VARCHAR(45), IN columnValue1 VARCHAR(1024),
@@ -57,7 +49,7 @@ CREATE PROCEDURE webdep.FormDataInsert( IN tableName VARCHAR(45),
                                         IN columnName19 VARCHAR(45), IN columnValue19 VARCHAR(1024),
                                         IN columnName20 VARCHAR(45), IN columnValue20 VARCHAR(1024))
 BEGIN
-	DECLARE sqlQueryStart VARCHAR(1024);
+	  DECLARE sqlQueryStart VARCHAR(1024);
     DECLARE sqlQueryColumns VARCHAR(1024);
     DECLARE sqlQUeryValues VARCHAR(1024);
     DECLARE stmtp VARCHAR(1024);
@@ -178,5 +170,35 @@ BEGIN
     PREPARE stmtp FROM @sqlQuery;
     EXECUTE stmtp;
 END<<
+DELIMITER ;
+
+DELIMITER <<
+DROP PROCEDURE IF EXISTS webdep.InstallPlugin<<
+CREATE PROCEDURE webdep.InstallPlugin(pluginName VARCHAR(255), pluginType int, overrideController bit,  afterController bit)
+BEGIN
+	DECLARE installed int;
+    SELECT count(*) INTO @installed FROM plugins WHERE name = pluginName;
+    IF (@installed = 0) THEN
+    	INSERT INTO plugins (name, type, override, after) VALUES (pluginName, pluginType, overrideController, afterController);
+    END IF;
+	SELECT LAST_INSERT_ID();
+END<<
+DELIMITER ;
+
+DELIMITER <<
+DROP PROCEDURE IF EXISTS webdep.depositUninstalledPlugin<<
+CREATE PROCEDURE depositUninstalledPlugin(UName varchar(255))
+BEGIN
+
+	DECLARE installedPlugin int;
+    DECLARE unInstalledPlugin int;
+
+    SELECT count(*) INTO @unInstalledPlugin FROM UninstalledPlugins WHERE name = UName;
+  	SELECT count(*) INTO @installedPlugin FROM Plugins WHERE name = UNname;
+    IF (@installedPlugin = 0) && (@unInstalledPlugin = 0) THEN
+    	INSERT INTO UninstalledPlugins (name) VALUES (UName);
+    END IF;
+END<<
+DELIMITER ;
 
 

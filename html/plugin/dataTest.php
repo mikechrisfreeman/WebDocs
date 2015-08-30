@@ -8,9 +8,9 @@
 
 class dataTest extends dataPlugin
 {
+
     public function index($args)
     {
-        echo "In the Data Plugin";
         return $args;
     }
 }

@@ -6,7 +6,7 @@
  * Time: 18:29
  */
 
-class testPlugin extends viewPlugin
+class test extends viewPlugin
 {
     public $view = "<h1>Testing</h1>";
     public function install()

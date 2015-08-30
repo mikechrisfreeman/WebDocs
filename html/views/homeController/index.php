@@ -8,11 +8,11 @@
 <h1><?php echo $this->welcome ?></h1>
 <h3>I'm now going to call another controller from the view</h3>
 <?php
-    echo file_get_contents('http://localhost/Controller/blog/index/' . $this->pageNumber); ?>
+    echo file_get_contents('http://localhost/controller/blog/index/' . $this->pageNumber); ?>
 <div id=""></div>
 <div id="form">
 
-    <form action="http://localhost/dataController/formData?table=commentsData" method="POST">
+    <form action="http://localhost/datacontroller/formData?table=commentsData" method="POST">
         First name:<br>
         <input type="text" name="firstname" value="Mickey">
         <br>

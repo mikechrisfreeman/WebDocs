@@ -1,2 +1,52 @@
 2015-08-09   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
 2015-08-09   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-08-23   :   There has been a problem installing plugin commentformsd Error : Plugin does not exist
+2015-08-23   :   There has been a problem installing plugin commentformsd Error : Plugin does not exist
+2015-08-24   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-24   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-24   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-24   :   An error has occured depositing plugin details into dB for plugin : commentform in the plugin class error : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'after' cannot be null
+2015-08-24   :   Error in install view plugin - please see earlier logs
+2015-08-25   :   An error has occured depositing plugin details into dB for plugin : SwearWords in the plugin class error : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'override' cannot be null
+2015-08-25   :   Error in install view plugin - please see earlier logs
+2015-08-25   :   There has been a problem installing plugin SwearWordss Error : Plugin does not exist
+2015-08-25   :   There has been a problem installing plugin SwearWordss Error : Plugin does not exist
+2015-08-25   :   Problem enabling plugin : Please look further up the log trail
+2015-08-25   :   Problem enabling plugin : Please look further up the log trail
+2015-08-25   :   Problem enabling plugin : Please look further up the log trail
+2015-08-25   :   Problem enabling plugin : Please look further up the log trail
+2015-08-29   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-08-29   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-29   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-29   :   There has been an error attempting an insert into the DB, error : SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+2015-08-29   :   There has been an error attempting an insert into the DB, error : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1')('1')' at line 1
+2015-08-29   :   There has been an error attempting an insert into the DB, error : SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1')('1')' at line 1
+2015-08-29   :   SQL Query : INSERT INTO PagePluginController (pageID, pluginID, controllerID) VALUES ('1')('1')('1')
+2015-08-29   :   Unable to deposit new pluginSQLSTATE[42S22]: Column not found: 1054 Unknown column 'UNname' in 'where clause'
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   Error in in commentForm plugin -> install : SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'commentsdata' already exists
+2015-08-30   :   Unable to process the install function of plugin = commentform with error = 
+2015-08-30   :   There has been a problem installing plugin 10 Error : Plugin does not exist
+2015-08-30   :   Error loading plugin for ID : 
+2015-08-30   :   Error loading plugin for ID : 3
+2015-08-30   :   There has been a problem installing plugin for ID 1 Error : Plugin does not exist
+2015-08-30   :   There has been a problem installing plugin for ID 1 Error : Plugin does not exist
+2015-08-30   :   There has been a problem installing plugin for ID 1 Error : Plugin does not exist
+2015-08-30   :   Problem enabling plugin : Please look further up the log trail
+2015-08-30   :   Problem enabling plugin : Please look further up the log trail
+2015-08-30   :   Problem enabling plugin : Please look further up the log trail
+2015-08-30   :   Problem enabling plugin : Please look further up the log trail
+2015-08-30   :   Problem enabling plugin : Please look further up the log trail

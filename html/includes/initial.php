@@ -39,11 +39,11 @@ function __autoload($class_name) {
 
     if(file_exists($Modelfile))
     {
-        include($Modelfile);
+        include_once($Modelfile);
 
     }elseif(file_exists($Pluginfile))
     {
-        include($Pluginfile);
+        include_once($Pluginfile);
 
     }else{
         return false;

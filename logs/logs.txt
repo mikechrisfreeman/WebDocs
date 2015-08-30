@@ -86,3 +86,412 @@
 2015-08-09   :   Attempting to install plugin commentform
 2015-08-09   :   Attempting to install plugin commentform
 2015-08-09   :   Attempting to install plugin commentform
+2015-08-23   :   Attempting to install plugin commentform
+2015-08-23   :   Attempting to install plugin commentformas
+2015-08-23   :   Attempting to install plugin commentformas
+2015-08-23   :   Attempting to install plugin commentformas
+2015-08-23   :   Attempting to install plugin commentformas
+2015-08-23   :   Attempting to install plugin commentformas
+2015-08-23   :   Attempting to install plugin commentform
+2015-08-23   :   Attempting to install plugin commentformsd
+2015-08-23   :   Attempting to install plugin commentformsd
+2015-08-23   :   Attempting to install plugin commentformsd
+2015-08-23   :   Attempting to install plugin commentform
+2015-08-23   :   Successfully executed commentForm->install()
+2015-08-23   :   Attempting to install plugin commentform
+2015-08-23   :   Successfully executed commentForm->install()
+2015-08-23   :   Attempting to install plugin commentform
+2015-08-23   :   Successfully executed commentForm->install()
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Successfully executed commentForm->install()
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Successfully executed commentForm->install()
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Successfully executed commentForm->install()
+2015-08-24   :   Successfully installed plugin
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Successfully executed commentForm->install()
+2015-08-24   :   Successfully installed plugin
+2015-08-24   :   Attempting to install plugin commentform
+2015-08-24   :   Successfully executed commentForm->install()
+2015-08-24   :   Successfully installed plugin
+2015-08-25   :   Attempting to install plugin SwearWords
+2015-08-25   :   Attempting to install plugin SwearWordss
+2015-08-25   :   Attempting to install plugin SwearWordss
+2015-08-25   :   Attempting to install plugin SwearWords
+2015-08-25   :   Successfully installed plugin SwearWords
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  homeController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Attempting to install plugin commentform
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   key 0 value : .
+2015-08-29   :   key 1 value : ..
+2015-08-29   :   key 2 value : SwearWords.php
+2015-08-29   :   key 3 value : commentform.php
+2015-08-29   :   key 4 value : datatest.php
+2015-08-29   :   key 5 value : test.php
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  homeController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =   class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check For Plugins, pageID =  999 class =  formDataController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2
+2015-08-29   :   Got Plugin Details from ExecutePlugin method, class =  formDataController for PluginID = 2 and PluginName = datatest
+2015-08-29   :   Table Name: commentsData
+2015-08-29   :   column Name : firstname
+2015-08-29   :   Value Name : Mickey
+2015-08-29   :   column Name : comment
+2015-08-29   :   Value Name :             This is just a test comment.
+        
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-08-29   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-08-29   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-29   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin commentform
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin 10
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin with ID 10
+2015-08-30   :   Successfully installed plugin SwearWords
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin with ID 10
+2015-08-30   :   Successfully installed plugin SwearWords
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin with ID 10
+2015-08-30   :   Successfully installed plugin SwearWords
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin with ID 1
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin with ID 1
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Attempting to install plugin with ID 1
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController

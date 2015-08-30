@@ -67,6 +67,14 @@ FOREIGN KEY (pluginID) REFERENCES plugins (pluginID),
 FOREIGN KEY (controllerID) REFERENCES controllers (controllerID)
 )
 
+CREATE TABLE PageController
+(
+pageID int NOT NULL,
+controllerID int NOT NULL,
+FOREIGN KEY (pageID) REFERENCES pages (pageID),
+FOREIGN KEY (controllerID) REFERENCES controllers (controllerID)
+)
+
 /*
 CREATE TABLE CommentsData
 (
@@ -77,6 +85,11 @@ comment VARCHAR (255) not null
 */
 
 
+CREATE TABLE UninstalledPlugins
+(
+ID int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+name varchar(255) NOT NULL UNIQUE
+)
 
 
 
