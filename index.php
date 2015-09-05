@@ -26,7 +26,6 @@ $reg->view = new view();
 //Getting an instance of the DB for the framework.
 $reg->db = db::getInstance();
 
-
 $reg->router = new router($reg);
 $reg->router->load();
 

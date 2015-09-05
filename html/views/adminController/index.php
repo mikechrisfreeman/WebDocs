@@ -1,6 +1,5 @@
 <html>
     <head>
-        <!--This is used to get the scripts -->
         <?php echo file_get_contents('http://localhost/controller/script/index/' . $this->pageNumber); ?>
     </head>
     <body>
@@ -47,7 +46,7 @@
 
             $.ajax({
                 type: "GET",
-                url: "http://localhost/api/webdep/installPlugin/" + selectedElem.val(),
+                url: "http://localhost/api/webdep/installPlugin/" + pluginName,
                 success: function (html) {
                     alert(html);
                     resultElem.addClass("control-group success");

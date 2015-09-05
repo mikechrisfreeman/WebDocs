@@ -23,8 +23,7 @@ include __SITE_PATH . '/html/application/viewPlugin.class.php';
 include __SITE_PATH . '/html/application/viewController.class.php';
 include __SITE_PATH . '/html/application/dataController.class.php';
 include __SITE_PATH . '/html/includes/functions.php';
-
-
+include __SITE_PATH . '/html/application/AuthenticationManagement.class.php';
 /**
  * @param $class_name
  * @return bool

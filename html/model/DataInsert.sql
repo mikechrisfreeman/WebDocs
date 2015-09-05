@@ -36,4 +36,10 @@ insert into pagecontroller (pageID, controllerID) VALUES (888,4);
 insert into pagecontroller (pageID, controllerID) VALUES (888,5);
 insert into pagecontroller (pageID, controllerID) VALUES (1,4);
 
+insert into protectedController(adminController);
+insert into users (lastName, firstName, email, salt, hash) values ("freeman", "michael", "mike.c.freeman@gmail.com", "Michael", "Mio657Xn.CizE");
+insert into pages (p[ageID, name) VALUES (777, 'login');
+
+
+
 

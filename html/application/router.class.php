@@ -15,9 +15,9 @@ class router
 
     private $path;
 
-    private $args = array();
-
     private $file;
+
+    private $AuthMan;
 
     /**
      * @var This is the type of the Instantiator
@@ -40,6 +40,7 @@ class router
     private $parameter1;
     private $parameter2;
     private $parameter3;
+
 
 
     function __construct($registry){
@@ -103,20 +104,31 @@ class router
         {
             die('404 Not Found');
         }
-
-        $instantiator = new $class($this->registry);
-
-
-        if(is_callable(array($instantiator, $this->method)) == false)
+        $this->AuthMan = new AuthenticationManagement();
+        $protectedController = new DBProtectedController($class);
+        if($protectedController->loaded && !$this->AuthMan->is_logged_in())
         {
-            $method = 'index';
+            //We redirect for some protected controllers but not for others - this is specified in the database
+            if($protectedController->redirect)
+            {
+                //We need to redirect the user to the login page
+                echo file_get_contents("http://$_SERVER[HTTP_HOST]/controller/login/index/777?returnAddress='". "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ."''");
+                die();
+//                $instantiator->returnAddress = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+            }else{
+                //edit the header here
+            }
+        }else{
+            $instantiator = new $class($this->registry);
         }
-        else
-        {
+
+
+        if (is_callable(array($instantiator, $this->method)) == false) {
+            $method = 'index';
+        } else {
             $method = $this->method;
         }
-
-
 
         if(isset($this->parameter1))
         {
@@ -139,37 +151,31 @@ class router
     private function getInstantiator()
     {
         $route = (empty($_GET['request'])) ? '' : $_GET['request'];
+        $parts = explode('/', $route);
 
-        //If route is empty - set the defaults for the home controller.
-        if(empty($route))
+        //If route is empty - or if there isn't sufficient amount of parameters
+        if(empty($route) || count($parts) < 2)
         {
             $this->type = "controller";
-            $route = 'index';
+            $this->instantiator = 'home';
+            $this->method = 'index';
             $this->parameter1 = 1;
         }
         else
         {
-            $parts = explode('/', $route);
-            if (isset($parts[0]))
-            {
-                $this->type = $parts[0];
-            }
-            if (isset($parts[1]))
-            {
-                $this->instantiator = $parts[1];
-                if(strtolower($this->instantiator) == 'admin'){
-                    //assign the page number
-                    $parts[3] = '888';
-                }
+            $this->type = $parts[0];
+            $this->instantiator = $parts[1];
 
+            //admin controller has a particular page number
+            if(strtolower($this->instantiator) == 'admin'){
+                $parts[3] = '888';
             }
-            if (isset($parts[2]))
-            {
+            if(isset($parts[2])) {
                 $this->method = $parts[2];
             }
+
             if(isset($parts[3]))
             {
-
                 $this->parameter1 = $parts[3];
             }
             if(isset($parts[4]))
@@ -181,7 +187,6 @@ class router
                 $this->parameter3 = $parts[5];
             }
 
-            //HardCo
         }
         if(empty($this->instantiator))
         {

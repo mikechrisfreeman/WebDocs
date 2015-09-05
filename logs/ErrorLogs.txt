@@ -50,3 +50,13 @@
 2015-08-30   :   Problem enabling plugin : Please look further up the log trail
 2015-08-30   :   Problem enabling plugin : Please look further up the log trail
 2015-08-30   :   Problem enabling plugin : Please look further up the log trail
+2015-08-31   :   There has been a problem installing plugin for ID asdasd Error : Plugin does not exist
+2015-08-31   :   There has been a problem installing plugin for ID asdasd Error : Plugin does not exist
+2015-09-03   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-09-03   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-09-03   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-09-03   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-09-03   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-09-03   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pageID' at row 1
+2015-09-04   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'localhost' for column 'pageID' at row 1
+2015-09-04   :   Unable to check checkPlugin in controller class, error : SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'localhost' for column 'pageID' at row 1

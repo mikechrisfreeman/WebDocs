@@ -9,8 +9,8 @@ userID int PRIMARY KEY NOT NULL AUTO_INCREMENT,
 lastName varchar(255) NOT NULL,
 firstName varchar(255) NOT NULL,
 email varchar(255) NOT NULL,
-password varchar(255) NOT NULL,
-salt varchar(255) NOT NULL
+salt varchar(255) NOT NULL,
+hash varchar(255) NOT NULL
 
 )Engine=innoDB;
 
@@ -84,11 +84,17 @@ comment VARCHAR (255) not null
 )
 */
 
-
 CREATE TABLE UninstalledPlugins
 (
 ID int PRIMARY KEY NOT NULL AUTO_INCREMENT,
 name varchar(255) NOT NULL UNIQUE
+)
+
+CREATE TABLE ProtectedControllers
+(
+ID int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+name varchar(255) NOT NULL UNIQUE,
+redirect BIT NOT NULL DEFAULT 1
 )
 
 

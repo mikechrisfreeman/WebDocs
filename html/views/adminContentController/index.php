@@ -5,7 +5,7 @@
 
     <!--Install Plugin section -->
     <div id="installPlugins" class="row">
-        <div class="col-md-4">
+        <div class="col-sm-4">
             <label for="uninstalledPlugins">Uninstalled Plugins</label>
             <select id="uninstalledPlugins">
                 <?php foreach($this->model->uninstalledPlugins as $plugin): ?>
@@ -16,14 +16,14 @@
             </select>
         </div>
 
-        <div class="col-md-2">
-        <button type="button" id="installPlugin">Install Selected Plugin</button>
+        <div class="col-sm-2">
+        <button type="button" id="installPlugin">Install Plugin</button>
         </div>
-        <div class="col-md-2">
+        <div class="col-sm-2">
             <button type="button" id="scanPlugins">Scan Plugins</button>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-2" >
+        <div class="col-sm-2"></div>
+        <div class="col-sm-2" >
             <div id="installOutcome"></div>
         </div>
     </div>
@@ -32,7 +32,7 @@
     <h2>Enable Plugin</h2>
     <div id="enablePlugins" class="row">
         <form role="form">
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <label for="installedPlugins">Installed Plugins</label>
                 <select id="installedPlugins">
                     <?php foreach($this->model->installedPlugins as $plugin): ?>
@@ -42,23 +42,23 @@
                     <?php endforeach; ?>
                 </select>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                         <div class="form-group">
                             <label for="controllers">Controllers</label>
                             <select id="controllers"></select>
                         </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2">
                         <div class="form-group">
                             <label for="pages">Page</label>
                             <select id="pages"></select>
                         </div>
             </div>
-            <div class="col-md-2">
-                    <button type="button" id="enablePlugin">Install Selected Plugin</button>
+            <div class="col-sm-2">
+                    <button type="button" id="enablePlugin">Enable Plugin</button>
             </div>
         </form>
-            <div class="col-md-2">
+            <div class="col-sm-2">
                 <div id="enableOutcome"></div>
             </div>
     </div>

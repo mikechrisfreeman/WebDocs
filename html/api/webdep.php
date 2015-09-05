@@ -170,7 +170,7 @@ class webdepAPI extends API
         $controller = new DBController($controllerID);
         $plugin = new DBPlugin($pluginID);
         $page = new DBPage($pageID);
-        if($controller->loaded && $plugin->loaded && $page->loaded)
+        if($controller->loaded && $plugin->loaded && $page->loaded && $plugin->type == $controller->type)
         {
             $sql = "INSERT INTO PagePluginController (pageID, pluginID, controllerID) VALUES ('". $page->id ."','". $plugin->id."','". $controller->id ."')";
             try{
@@ -335,11 +335,5 @@ class webdepAPI extends API
             new ErrorLog("Unable to deposit new plugin" . $e->getMessage());
             return false;
         }
-    }
-    private function returnHTTPError($code, $message)
-    {
-        header('Content-Type: application/json');
-        header("HTTP/1.1 $code");
-        die(json_encode(['code' => $code, 'message' => $message]));
     }
 }

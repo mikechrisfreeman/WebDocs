@@ -495,3 +495,290 @@
 2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
 2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
 2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-30   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-08-31   :   Attempting to install plugin with ID asdasd
+2015-08-31   :   Attempting to install plugin with ID asdasd
+2015-08-31   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-08-31   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-08-31   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-09-01   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-09-01   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-09-01   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  888 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  888 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  888 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =   class =  homeController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-03   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-03   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-03   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  homeController
+2015-09-04   :   Getting Plugin Details from ExecutePlugin method, class =  homeController for PluginID = 1
+2015-09-04   :    echoing file_get_contents, class =  homeController for PluginID = 1
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  1 class =  blogController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   User not found in DB
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  loginController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  777 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-09-04   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-09-05   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-09-05   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-09-05   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
+2015-09-05   :   Getting PluginID from check Plugin, pageID =  888 class =  adminController
+2015-09-05   :   Getting PluginID from check Plugin, pageID =  888 class =  scriptController
+2015-09-05   :   Getting PluginID from check Plugin, pageID =  888 class =  adminContentController
